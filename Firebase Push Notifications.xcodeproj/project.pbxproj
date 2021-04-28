@@ -3,19 +3,67 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A738C7C526396331006A46DA /* FIRDatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A738C7C426396331006A46DA /* FIRDatabaseService.swift */; };
+		A738C7E926399BAF006A46DA /* ProductsSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A738C7E826399BAF006A46DA /* ProductsSnapshot.swift */; };
+		A738C7EC26399F31006A46DA /* ProductsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A738C7EB26399F31006A46DA /* ProductsService.swift */; };
+		A79724AC2639C01400CDD4C0 /* FIRMessagingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79724AB2639C01400CDD4C0 /* FIRMessagingService.swift */; };
+		A79724B52639EA1800CDD4C0 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79724B42639EA1800CDD4C0 /* NotificationService.swift */; };
+		A79724B92639EA1800CDD4C0 /* Nitif Service Ext.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A79724B22639EA1800CDD4C0 /* Nitif Service Ext.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A79724C12639EC4200CDD4C0 /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79724C02639EC4200CDD4C0 /* DownloadService.swift */; };
+		A79724C42639EF7A00CDD4C0 /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79724C02639EC4200CDD4C0 /* DownloadService.swift */; };
 		A7CDEB8B26393DBF0069B463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CDEB8A26393DBF0069B463 /* AppDelegate.swift */; };
 		A7CDEB8D26393DBF0069B463 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CDEB8C26393DBF0069B463 /* SceneDelegate.swift */; };
 		A7CDEB8F26393DBF0069B463 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CDEB8E26393DBF0069B463 /* ViewController.swift */; };
 		A7CDEB9226393DBF0069B463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7CDEB9026393DBF0069B463 /* Main.storyboard */; };
 		A7CDEB9426393DC00069B463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7CDEB9326393DC00069B463 /* Assets.xcassets */; };
 		A7CDEB9726393DC00069B463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7CDEB9526393DC00069B463 /* LaunchScreen.storyboard */; };
+		A7CDEBA5263944A80069B463 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CDEBA4263944A80069B463 /* Product.swift */; };
+		A7CDEBA8263945710069B463 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CDEBA7263945710069B463 /* ProductCell.swift */; };
+		A7CDEBAB26394A090069B463 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CDEBAA26394A090069B463 /* AlertService.swift */; };
+		A7CDEBAE263956820069B463 /* UNService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CDEBAD263956820069B463 /* UNService.swift */; };
+		A7CDEBB3263960620069B463 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7CDEBB2263960620069B463 /* GoogleService-Info.plist */; };
+		B91B3F0CA7BBD242BC62D247 /* Pods_Firebase_Push_Notifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5129AF91B4D03542F6229B22 /* Pods_Firebase_Push_Notifications.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A79724B72639EA1800CDD4C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7CDEB7F26393DBF0069B463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A79724B12639EA1800CDD4C0;
+			remoteInfo = "Nitif Service Ext";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A79724BD2639EA1800CDD4C0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A79724B92639EA1800CDD4C0 /* Nitif Service Ext.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5129AF91B4D03542F6229B22 /* Pods_Firebase_Push_Notifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Push_Notifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7367BE45A8C53B6E40B95013 /* Pods-Firebase Push Notifications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Push Notifications.debug.xcconfig"; path = "Target Support Files/Pods-Firebase Push Notifications/Pods-Firebase Push Notifications.debug.xcconfig"; sourceTree = "<group>"; };
+		A738C7C426396331006A46DA /* FIRDatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRDatabaseService.swift; sourceTree = "<group>"; };
+		A738C7E826399BAF006A46DA /* ProductsSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsSnapshot.swift; sourceTree = "<group>"; };
+		A738C7EB26399F31006A46DA /* ProductsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsService.swift; sourceTree = "<group>"; };
+		A79724AB2639C01400CDD4C0 /* FIRMessagingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRMessagingService.swift; sourceTree = "<group>"; };
+		A79724B22639EA1800CDD4C0 /* Nitif Service Ext.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Nitif Service Ext.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79724B42639EA1800CDD4C0 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		A79724B62639EA1800CDD4C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79724C02639EC4200CDD4C0 /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
 		A7CDEB8726393DBF0069B463 /* Firebase Push Notifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase Push Notifications.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7CDEB8A26393DBF0069B463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7CDEB8C26393DBF0069B463 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,24 +72,58 @@
 		A7CDEB9326393DC00069B463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7CDEB9626393DC00069B463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7CDEB9826393DC00069B463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7CDEBA4263944A80069B463 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		A7CDEBA7263945710069B463 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		A7CDEBAA26394A090069B463 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		A7CDEBAD263956820069B463 /* UNService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNService.swift; sourceTree = "<group>"; };
+		A7CDEBB2263960620069B463 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEE8127E54A1F0C93F7D5B6B /* Pods-Firebase Push Notifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Push Notifications.release.xcconfig"; path = "Target Support Files/Pods-Firebase Push Notifications/Pods-Firebase Push Notifications.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A7CDEB8426393DBF0069B463 /* Frameworks */ = {
+		A79724AF2639EA1800CDD4C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7CDEB8426393DBF0069B463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91B3F0CA7BBD242BC62D247 /* Pods_Firebase_Push_Notifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		383A8A724A285266C863A101 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5129AF91B4D03542F6229B22 /* Pods_Firebase_Push_Notifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A79724B32639EA1800CDD4C0 /* Nitif Service Ext */ = {
+			isa = PBXGroup;
+			children = (
+				A79724B42639EA1800CDD4C0 /* NotificationService.swift */,
+				A79724B62639EA1800CDD4C0 /* Info.plist */,
+			);
+			path = "Nitif Service Ext";
+			sourceTree = "<group>";
+		};
 		A7CDEB7E26393DBF0069B463 = {
 			isa = PBXGroup;
 			children = (
 				A7CDEB8926393DBF0069B463 /* Firebase Push Notifications */,
+				A79724B32639EA1800CDD4C0 /* Nitif Service Ext */,
 				A7CDEB8826393DBF0069B463 /* Products */,
+				ED6DFD543776AE7BC8048960 /* Pods */,
+				383A8A724A285266C863A101 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				A7CDEB8726393DBF0069B463 /* Firebase Push Notifications.app */,
+				A79724B22639EA1800CDD4C0 /* Nitif Service Ext.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,31 +139,103 @@
 		A7CDEB8926393DBF0069B463 /* Firebase Push Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				A7CDEB9826393DC00069B463 /* Info.plist */,
+				A7CDEBB2263960620069B463 /* GoogleService-Info.plist */,
+				A7CDEBA226393FF30069B463 /* Model */,
+				A7CDEBA126393FEC0069B463 /* View */,
+				A7CDEBA026393FE30069B463 /* Controller */,
+				A7CDEB9F26393FD80069B463 /* Service */,
+			);
+			path = "Firebase Push Notifications";
+			sourceTree = "<group>";
+		};
+		A7CDEB9F26393FD80069B463 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A7CDEBAA26394A090069B463 /* AlertService.swift */,
+				A7CDEBAD263956820069B463 /* UNService.swift */,
+				A738C7C426396331006A46DA /* FIRDatabaseService.swift */,
+				A738C7EB26399F31006A46DA /* ProductsService.swift */,
+				A79724AB2639C01400CDD4C0 /* FIRMessagingService.swift */,
+				A79724C02639EC4200CDD4C0 /* DownloadService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A7CDEBA026393FE30069B463 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				A7CDEB8A26393DBF0069B463 /* AppDelegate.swift */,
 				A7CDEB8C26393DBF0069B463 /* SceneDelegate.swift */,
 				A7CDEB8E26393DBF0069B463 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A7CDEBA126393FEC0069B463 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				A7CDEB9026393DBF0069B463 /* Main.storyboard */,
 				A7CDEB9326393DC00069B463 /* Assets.xcassets */,
 				A7CDEB9526393DC00069B463 /* LaunchScreen.storyboard */,
-				A7CDEB9826393DC00069B463 /* Info.plist */,
+				A7CDEBA7263945710069B463 /* ProductCell.swift */,
 			);
-			path = "Firebase Push Notifications";
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7CDEBA226393FF30069B463 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7CDEBA4263944A80069B463 /* Product.swift */,
+				A738C7E826399BAF006A46DA /* ProductsSnapshot.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED6DFD543776AE7BC8048960 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7367BE45A8C53B6E40B95013 /* Pods-Firebase Push Notifications.debug.xcconfig */,
+				CEE8127E54A1F0C93F7D5B6B /* Pods-Firebase Push Notifications.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A7CDEB8626393DBF0069B463 /* Firebase Push Notifications */ = {
+		A79724B12639EA1800CDD4C0 /* Nitif Service Ext */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7CDEB9B26393DC00069B463 /* Build configuration list for PBXNativeTarget "Firebase Push Notifications" */;
+			buildConfigurationList = A79724BA2639EA1800CDD4C0 /* Build configuration list for PBXNativeTarget "Nitif Service Ext" */;
 			buildPhases = (
-				A7CDEB8326393DBF0069B463 /* Sources */,
-				A7CDEB8426393DBF0069B463 /* Frameworks */,
-				A7CDEB8526393DBF0069B463 /* Resources */,
+				A79724AE2639EA1800CDD4C0 /* Sources */,
+				A79724AF2639EA1800CDD4C0 /* Frameworks */,
+				A79724B02639EA1800CDD4C0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "Nitif Service Ext";
+			productName = "Nitif Service Ext";
+			productReference = A79724B22639EA1800CDD4C0 /* Nitif Service Ext.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A7CDEB8626393DBF0069B463 /* Firebase Push Notifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CDEB9B26393DC00069B463 /* Build configuration list for PBXNativeTarget "Firebase Push Notifications" */;
+			buildPhases = (
+				183F6E087E2A8806302C653C /* [CP] Check Pods Manifest.lock */,
+				A7CDEB8326393DBF0069B463 /* Sources */,
+				A7CDEB8426393DBF0069B463 /* Frameworks */,
+				A7CDEB8526393DBF0069B463 /* Resources */,
+				12594135E6FBE6506A38BFE5 /* [CP] Embed Pods Frameworks */,
+				A79724BD2639EA1800CDD4C0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A79724B82639EA1800CDD4C0 /* PBXTargetDependency */,
 			);
 			name = "Firebase Push Notifications";
 			productName = "Firebase Push Notifications";
@@ -96,6 +251,9 @@
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					A79724B12639EA1800CDD4C0 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					A7CDEB8626393DBF0069B463 = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -115,16 +273,25 @@
 			projectRoot = "";
 			targets = (
 				A7CDEB8626393DBF0069B463 /* Firebase Push Notifications */,
+				A79724B12639EA1800CDD4C0 /* Nitif Service Ext */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A79724B02639EA1800CDD4C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A7CDEB8526393DBF0069B463 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A7CDEB9726393DC00069B463 /* LaunchScreen.storyboard in Resources */,
+				A7CDEBB3263960620069B463 /* GoogleService-Info.plist in Resources */,
 				A7CDEB9426393DC00069B463 /* Assets.xcassets in Resources */,
 				A7CDEB9226393DBF0069B463 /* Main.storyboard in Resources */,
 			);
@@ -132,18 +299,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12594135E6FBE6506A38BFE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase Push Notifications/Pods-Firebase Push Notifications-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Firebase Push Notifications/Pods-Firebase Push Notifications-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firebase Push Notifications/Pods-Firebase Push Notifications-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		183F6E087E2A8806302C653C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Firebase Push Notifications-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		A79724AE2639EA1800CDD4C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79724B52639EA1800CDD4C0 /* NotificationService.swift in Sources */,
+				A79724C42639EF7A00CDD4C0 /* DownloadService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A7CDEB8326393DBF0069B463 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A7CDEB8F26393DBF0069B463 /* ViewController.swift in Sources */,
+				A7CDEBA5263944A80069B463 /* Product.swift in Sources */,
+				A738C7C526396331006A46DA /* FIRDatabaseService.swift in Sources */,
+				A7CDEBA8263945710069B463 /* ProductCell.swift in Sources */,
 				A7CDEB8B26393DBF0069B463 /* AppDelegate.swift in Sources */,
+				A79724C12639EC4200CDD4C0 /* DownloadService.swift in Sources */,
+				A7CDEBAB26394A090069B463 /* AlertService.swift in Sources */,
+				A738C7E926399BAF006A46DA /* ProductsSnapshot.swift in Sources */,
 				A7CDEB8D26393DBF0069B463 /* SceneDelegate.swift in Sources */,
+				A7CDEBAE263956820069B463 /* UNService.swift in Sources */,
+				A79724AC2639C01400CDD4C0 /* FIRMessagingService.swift in Sources */,
+				A738C7EC26399F31006A46DA /* ProductsService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A79724B82639EA1800CDD4C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A79724B12639EA1800CDD4C0 /* Nitif Service Ext */;
+			targetProxy = A79724B72639EA1800CDD4C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A7CDEB9026393DBF0069B463 /* Main.storyboard */ = {
@@ -165,6 +400,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A79724BB2639EA1800CDD4C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GGA73G37Y2;
+				INFOPLIST_FILE = "Nitif Service Ext/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.ackdevelepment.Firebase-Push-Notifications.Nitif-Service-Ext";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A79724BC2639EA1800CDD4C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GGA73G37Y2;
+				INFOPLIST_FILE = "Nitif Service Ext/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.ackdevelepment.Firebase-Push-Notifications.Nitif-Service-Ext";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		A7CDEB9926393DC00069B463 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -283,7 +556,9 @@
 		};
 		A7CDEB9C26393DC00069B463 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7367BE45A8C53B6E40B95013 /* Pods-Firebase Push Notifications.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,7 +577,9 @@
 		};
 		A7CDEB9D26393DC00069B463 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE8127E54A1F0C93F7D5B6B /* Pods-Firebase Push Notifications.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -322,6 +599,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A79724BA2639EA1800CDD4C0 /* Build configuration list for PBXNativeTarget "Nitif Service Ext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79724BB2639EA1800CDD4C0 /* Debug */,
+				A79724BC2639EA1800CDD4C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A7CDEB8226393DBF0069B463 /* Build configuration list for PBXProject "Firebase Push Notifications" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
